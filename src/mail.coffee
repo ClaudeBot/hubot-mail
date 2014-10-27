@@ -1,5 +1,5 @@
 # Description:
-#   Mail System
+#   Activity-based Mail System
 #
 # Configuration:
 #   HUBOT_MAIL_KEY
