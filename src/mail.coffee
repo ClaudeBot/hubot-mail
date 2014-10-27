@@ -1,9 +1,6 @@
 # Description:
 #   Mail System
 #
-# Dependencies:
-#   "moment": "^2.8.3"
-#
 # Configuration:
 #   HUBOT_MAIL_KEY
 #
