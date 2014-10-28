@@ -1,5 +1,7 @@
 # Hubot: Mail
 
+[![Dependency Status](https://david-dm.org/ClaudeBot/hubot-mail.svg?style=flat-square)](https://david-dm.org/ClaudeBot/hubot-mail)
+
 A Hubot script for preparing messages that will be delivered upon the recipient's next activity (i.e. joins room, enters a message).
 
 
