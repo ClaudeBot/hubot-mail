@@ -14,10 +14,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-mail.git"
+    "url": "git://github.com/ClaudeBot/hubot-mail.git"
   },
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-mail/issues"
+    "url": "https://github.com/ClaudeBot/hubot-mail/issues"
   },
   "dependencies": {
     "moment": "^2.8.3"
