@@ -21,7 +21,7 @@ A Hubot script for preparing messages that will be delivered upon the recipient'
     ]
     ```
 
-3. Run `npm install`
+3. Run your bot and see below for available config / commands
 
 
 ## Configuration
