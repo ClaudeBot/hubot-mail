@@ -28,8 +28,10 @@ module.exports = (robot) ->
     DeliverMail = (ctx) ->
         recipient = ctx.message.user.name.toLowerCase()
         if mails = GetMail()[recipient]
+            response = ""
             for mail in mails
-                ctx.reply "[From #{mail[0]}, #{moment.unix(mail[1]).fromNow()}] #{mail[2]}"
+                response += "[From #{mail[0]}, #{moment.unix(mail[1]).fromNow()}] #{mail[2]} \n"
+            ctx.reply response
             delete GetMail()[recipient]
             robot.brain.save()
 
