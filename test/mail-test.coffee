@@ -9,6 +9,7 @@ describe "mail", ->
         @robot =
             respond: sinon.spy()
             hear: sinon.spy()
+            enter: sinon.spy()
 
         require("../src/mail")(@robot)
 
