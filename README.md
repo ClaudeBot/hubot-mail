@@ -7,7 +7,7 @@ A Hubot script for preparing messages that will be delivered upon the recipient'
 
 ## Installation via NPM
 
-1. Install the __hubot-mail__ module as a Hubot dependency by adding it to your `package.json` file:
+1. Install the __hubot-mail__ module as a Hubot dependency by running:
 
     ```
     npm install --save hubot-mail
@@ -16,10 +16,19 @@ A Hubot script for preparing messages that will be delivered upon the recipient'
 2. Enable the script by adding the __hubot-mail__ entry to your `external-scripts.json` file:
 
     ```json
-    ["hubot-mail"]
+    [
+        "hubot-mail"
+    ]
     ```
 
 3. Run `npm install`
+
+
+## Configuration
+
+Variable | Default | Description
+--- | --- | ---
+`HUBOT_MAIL_KEY` | _mail | The unique key used for persistence (storing/retrieving mails from memory)
 
 
 ## Commands
