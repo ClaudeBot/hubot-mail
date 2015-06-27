@@ -5,6 +5,8 @@
 
 A Hubot script for preparing messages that will be delivered upon the recipient's next activity (i.e. joins room, enters a message).
 
+See [`src/mail.coffee`](src/mail.coffee) for full documentation.
+
 
 ## Installation via NPM
 
@@ -14,7 +16,7 @@ A Hubot script for preparing messages that will be delivered upon the recipient'
     npm install --save hubot-mail
     ```
 
-2. Enable the script by adding the __hubot-mail__ entry to your `external-scripts.json` file:
+2. Enable the module by adding the __hubot-mail__ entry to your `external-scripts.json` file:
 
     ```json
     [
