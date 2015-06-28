@@ -40,3 +40,11 @@ Command | Description
 --- | ---
 hubot mail `recipient` `message` | Sends a `message` to `recipient` when found available
 hubot unmail `[recipient]` | Deletes all mail sent by you. Optionally, if `recipient` is specified, only mail sent to `recipient` by you will be deleted
+
+
+## Sample Interaction
+
+```
+user1>> hubot mail user1 Hello world!
+hubot>> user1: Are you sure you want to send a mail to yourself? Sad.
+```
