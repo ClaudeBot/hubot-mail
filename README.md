@@ -1,7 +1,7 @@
-# Hubot: Mail
+# hubot-mail
 
 [![Build Status](https://travis-ci.org/ClaudeBot/hubot-mail.svg)](https://travis-ci.org/ClaudeBot/hubot-mail)
-[![Dependency Status](https://david-dm.org/ClaudeBot/hubot-mail.svg?style=flat-square)](https://david-dm.org/ClaudeBot/hubot-mail)
+[![Dependency Status](https://david-dm.org/ClaudeBot/hubot-mail.svg)](https://david-dm.org/ClaudeBot/hubot-mail)
 
 A Hubot script for preparing messages that will be delivered upon the recipient's next activity (i.e. joins room, enters a message).
 
