@@ -1,11 +1,9 @@
 {
   "name": "hubot-mail",
   "description": "A Hubot script for preparing messages that will be delivered upon the recipient's next activity (i.e. joins room, enters a message).",
-  "version": "1.1.0",
-
+  "version": "1.1.1",
   "author": "Ian Lai <ian@fyianlai.com>",
   "license": "MIT",
-
   "keywords": [
     "hubot",
     "hubot-scripts",
@@ -16,24 +14,19 @@
     "reminder",
     "notify"
   ],
-
   "repository": {
     "type": "git",
     "url": "git://github.com/ClaudeBot/hubot-mail.git"
   },
-
   "bugs": {
     "url": "https://github.com/ClaudeBot/hubot-mail/issues"
   },
-
   "dependencies": {
     "moment": "^2.8.3"
   },
-
   "peerDependencies": {
     "hubot": "2.x"
   },
-
   "devDependencies": {
     "chai": "^3.0.0",
     "coffee-script": "^1.9.3",
@@ -48,9 +41,7 @@
     "sinon": "^1.13.0",
     "sinon-chai": "^2.7.0"
   },
-
   "main": "index.coffee",
-
   "scripts": {
     "test": "grunt test"
   }
