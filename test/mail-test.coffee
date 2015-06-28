@@ -19,3 +19,6 @@ describe "mail", ->
 
     it 'registers a hear listener', ->
         expect(@robot.hear).to.have.been.calledWith(/./i)
+
+    it 'registers a enter listener', ->
+        expect(@robot.enter)
