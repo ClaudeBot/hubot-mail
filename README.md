@@ -36,10 +36,10 @@ Variable | Default | Description
 
 ## Commands
 
-Command | Description
---- | ---
-hubot mail `recipient` `message` | Sends a `message` to `recipient` when found available
-hubot unmail `[recipient]` | Deletes all mail sent by you. Optionally, if `recipient` is specified, only mail sent to `recipient` by you will be deleted
+Command | Listener ID | Description
+--- | --- | ---
+hubot mail `recipient` `message` | `mail.new` | Sends a `message` to `recipient` when found available
+hubot unmail `[recipient]` | `mail.cancel` | Deletes all mail sent by you. Optionally, if `recipient` is specified, only mail sent to `recipient` by you will be deleted
 
 
 ## Sample Interaction

@@ -38,7 +38,7 @@ module.exports = (robot) ->
     #
     # Hubot commands
     #
-    robot.respond /unmail\s?(.*)/i, (res) ->
+    robot.respond /unmail\s?(.*)/i, id: "mail.cancel", (res) ->
         deleted = 0
 
         # TODO: Detect and delete empty nodes
@@ -69,7 +69,7 @@ module.exports = (robot) ->
                 res.reply "#{deleted} of your mail(s) has been deleted."
                 robot.brain.save()
 
-    robot.respond /mail (\S+) (.+)/i, (res) ->
+    robot.respond /mail (\S+) (.+)/i, id: "mail.new", (res) ->
         [_command, recipient, message] = res.match
         sender = res.message.user.name.toLowerCase()
         recipient = recipient.toLowerCase()
