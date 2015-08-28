@@ -93,5 +93,5 @@ module.exports = (robot) ->
     robot.enter (res) ->
         DeliverMail res
 
-    robot.hear /./i, (res) ->
+    robot.hear /./i, id: "mail.listen", (res) ->
         DeliverMail res
