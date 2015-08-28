@@ -11,7 +11,7 @@
 # Author:
 #   MrSaints
 
-moment = require 'moment'
+moment = require "moment"
 
 #
 # Config
