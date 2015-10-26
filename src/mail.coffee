@@ -90,8 +90,8 @@ module.exports = (robot) ->
     #
     # Hubot events
     #
-    robot.enter (res) ->
+    robot.enter id: "mail.enter", (res) ->
         DeliverMail res
 
-    robot.hear /./i, id: "mail.listen", (res) ->
+    robot.hear /./i, id: "mail.hear", (res) ->
         DeliverMail res
