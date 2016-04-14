@@ -26,6 +26,7 @@ module.exports = (robot) ->
     # Delivers all mail belonging to a recipient in `ctx` via reply()
     # Returns nothing
     DeliverMail = (ctx) ->
+        return unless ctx.message.user?.name?
         recipient = ctx.message.user.name.toLowerCase()
         if mails = GetMail()[recipient]
             response = ""
