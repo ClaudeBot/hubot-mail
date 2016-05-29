@@ -1,7 +1,7 @@
 {
   "name": "hubot-mail",
   "description": "A Hubot script for preparing messages that will be delivered upon the recipient's next activity (i.e. joins room, enters a message).",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "author": "Ian Lai <os@fyianlai.com>",
   "license": "MIT",
   "keywords": [
